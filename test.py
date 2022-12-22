@@ -20,10 +20,10 @@ with tab1:
 
 with tab2:
     st.write("درس فیزیک")
-    st.image('Images/ElonImg.jpg')
+    st.image('ElonImg.jpg')
 with tab3:
     st.write("درس عربی")
-    st.image('Images/bill.jpg')
+    st.image('bill.jpg')
 with st.sidebar:
     with st.form(key='فرم ورود'):
         username = st.text_input('نام کاربری')
@@ -34,7 +34,7 @@ with st.sidebar:
 
 with st.container():
     st.write("This is inside the container")
-    st.image('Images/lena.png')
+    st.image('lena.png')
     st.radio('انتخاب کنید', ['دهم', 'یازدهم','دوازدهم'])
 
 st.write("This is outside the container")
@@ -43,12 +43,12 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("آروین امینی")
-   st.image('Images/lena.png')
+   st.image('lena.png')
 
 with col2:
    st.header("احسان جهانگیری")
-   st.image('Images/bill.jpg')
+   st.image('bill.jpg')
 
 with col3:
    st.header("مرتضی عسگری")
-   st.image('Images/ElonImg.jpg')
+   st.image('ElonImg.jpg')
